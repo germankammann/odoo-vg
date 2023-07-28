@@ -2343,6 +2343,9 @@ class AccountMove(models.Model):
                 if 'tax_totals' in vals:
                     super(AccountMove, move).write({'tax_totals': vals['tax_totals']})
 
+        if 'journal_id' in vals:
+            self.line_ids._check_constrains_account_id_journal_id()
+
         return res
 
     def check_move_sequence_chain(self):
