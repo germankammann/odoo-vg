@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2022
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2022
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2022
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2023
 # Jolien De Paepe, 2023
 # 
 msgid ""
@@ -129,7 +129,7 @@ msgstr "Basis actie regel: controleer en voer uit"
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_change
 msgid "Based on Form Modification"
-msgstr "Gebaseerd op formulier wijziging"
+msgstr "Gebaseerd op aanpassing veld op scherm"
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time
@@ -274,7 +274,7 @@ msgstr "Vervalsoort"
 #: code:addons/base_automation/static/src/xml/base_automation_error_dialog.xml:0
 #, python-format
 msgid "Edit action"
-msgstr "Wijzig actie"
+msgstr "Actie bewerken"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__template_id

@@ -3064,6 +3064,13 @@ msgstr "의견을 남겨주세요"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
+#, python-format
+msgid "Let's create your first <b>stage</b>."
+msgstr "첫 번째 <b>단계</b>를 생성합니다."
+
+#. module: project
+#. odoo-javascript
+#: code:addons/project/static/src/js/tours/project.js:0
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Let's create your first <b>project</b>."
@@ -3075,6 +3082,13 @@ msgstr "첫번째 <b>프로젝트</b>를 생성합니다."
 #, python-format
 msgid "Let's create your first <b>task</b>."
 msgstr "첫번째 <b>작업</b>을 생성합니다."
+
+#. module: project
+#. odoo-javascript
+#: code:addons/project/static/src/js/tours/project.js:0
+#, python-format
+msgid "Let's create your second <b>stage</b>."
+msgstr "두 번째 <b>단계</b>를 생성합니다."
 
 #. module: project
 #. odoo-javascript
@@ -3502,6 +3516,11 @@ msgstr "다음 반복"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
+msgid "No Customer"
+msgstr ""
+
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Milestone"
 msgstr "마일스톤 없음"
 
@@ -3659,7 +3678,7 @@ msgstr "오류 횟수"
 #: model:ir.model.fields,help:project.field_project_task__message_needaction_counter
 #: model:ir.model.fields,help:project.field_project_update__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "조치가 필요한 메시지 수"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_milestone__message_has_error_counter

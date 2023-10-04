@@ -5,7 +5,7 @@
 # Translators:
 # Mustafa Rawi <mustafa@cubexco.com>, 2022
 # Martin Trigaux, 2022
-# Niyas Raphy, 2022
+# Niyas Raphy, 2023
 # Malaz Abuidris <msea@odoo.com>, 2023
 # 
 msgid ""
@@ -1554,7 +1554,7 @@ msgstr "عدد الأخطاء "
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_needaction_counter
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_has_error_counter
@@ -1873,7 +1873,7 @@ msgstr "الخدمة"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__service_activity
 msgid "Service Activity"
-msgstr "خدمة النشاط"
+msgstr "نشاط الخدمة "
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__service_type_id
