@@ -283,7 +283,7 @@ class SessionExpiredException(Exception):
 
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
-        url_quote(filename, safe='')
+        url_quote(filename, safe='', unsafe='()<>@,;:"/[]?={}\\*\'%') # RFC6266
     )
 
 def db_list(force=False, host=None):
@@ -980,6 +980,7 @@ class Session(collections.abc.MutableMapping):
 
         self.should_rotate = True
         self.update({
+            'db': env.registry.db_name,
             'login': login,
             'uid': uid,
             'context': user_context,
